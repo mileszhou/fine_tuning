@@ -21,11 +21,7 @@ build/
 htmlcov/
 
 # Environment variables (Sensitive data)
-<<<<<<< Updated upstream
 # .env
-=======
-#.env   # I need that.
->>>>>>> Stashed changes
 
 # Add by miles
 outputs/
