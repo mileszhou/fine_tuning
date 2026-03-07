@@ -1,0 +1,3 @@
+{"idx": 0, "winner": 1, "confidence": 0.72, "scores": [{"accuracy": 70, "completeness": 62, "safety": 85}, {"accuracy": 40, "completeness": 55, "safety": 80}]}
+{"idx": 0, "winner": 1, "confidence": 0.72, "scores": [{"accuracy": 70, "completeness": 62, "safety": 85}, {"accuracy": 40, "completeness": 55, "safety": 80}]}
+{"idx": 0, "winner": 1, "confidence": 0.72, "scores": [{"accuracy": 70, "completeness": 62, "safety": 85}, {"accuracy": 35, "completeness": 55, "safety": 80}]}

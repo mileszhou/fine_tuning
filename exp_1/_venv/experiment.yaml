@@ -1,0 +1,13 @@
+base_model: meta-llama/Llama-3-8B
+dataset: FreedomIntelligence/medical-o1-reasoning-SFT
+dataset_split: train[0:500]
+max_seq_length: 2048
+lora_rank: 16
+lora_alpha: 16
+batch_size: 2
+gradient_accumulation_steps: 4
+learning_rate: 2e-4
+steps: 60
+seed: 3407
+device: mps
+
