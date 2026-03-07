@@ -12,4 +12,4 @@ pip install ipykernel
 pip install openai
 pip install bitsandbytes
 
-. .env                      # modify this file to set the default environment variables
+source _env                      # modify this file to set the default environment variables

@@ -2,8 +2,8 @@
 
 set -e
 
-. .env                      # modify this file to set the default environment variables 
-. ./exp_tune/_env/env.sh    # modify this file to set the environment variables specific to fine tuning
+source _env                      # modify this file to set the default environment variables 
+source ./exp_tune/_env/env.sh    # modify this file to set the environment variables specific to fine tuning
 
 run_id=$(date +%Y%m%d_%H%M%S)
 result_dir="$RESULTS_DIR/run_$run_id"
