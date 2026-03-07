@@ -21,7 +21,7 @@ build/
 htmlcov/
 
 # Environment variables (Sensitive data)
-.env
+# .env
 
 # Add by miles
 outputs/
