@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
-set -e
+# set -e
 
 python3 -m venv .venv_lora
-. .venv_lora/bin/activate
+source .venv_lora/bin/activate
 
 PATH=.venv_lora/bin:$PATH
 
@@ -12,4 +12,4 @@ pip install ipykernel
 pip install openai
 pip install bitsandbytes
 
-. .env                      # modify this file to set the default environment variables
+source _env                      # modify this file to set the default environment variables
