@@ -24,7 +24,9 @@ htmlcov/
 .env
 
 # Add by miles
+.venv_lora/
 outputs/
+outputs.tmp/
 lora_model/
 logs/
 _outputs/
