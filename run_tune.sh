@@ -25,3 +25,4 @@ RESULTS_DIR="$result_dir" ./.venv_lora/bin/python ./exp_tune/_python/fine_tuning
     # --per_device_train_batch_size 1 \
     # --data_size 1000
     # --learning_rate 2e-4
+

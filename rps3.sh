@@ -1,0 +1,11 @@
+
+source .env
+#aws s3  --region us-nc-1 --endpoint-url https://s3api-us-nc-1.runpod.io s3://6246ebz7me/
+
+rps3() {
+    local bucket="s3://6246ebz7me"
+    aws s3 "$1" "$bucket/$2" "${@:3}" \
+        --endpoint-url https://s3api-us-nc-1.runpod.io \
+        --region us-nc-1
+}
+
