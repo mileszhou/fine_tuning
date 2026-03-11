@@ -129,8 +129,8 @@ bnb_config = BitsAndBytesConfig(
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    quantization_config=bnb_config,
-    device_map="auto"
+    quantization_config=bnb_config
+#   , device_map="auto"
 )
 
 
