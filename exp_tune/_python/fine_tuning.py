@@ -147,6 +147,7 @@ peft_config = LoraConfig(
 
 model = get_peft_model(model, peft_config)
 model.print_trainable_parameters()
+model.gradient_checkpointing_disable()
 # model.to(device)    # move model to the correct device (MPS or CPU)
 
 # model = get_peft_model(model, lora_config)  # wrap the model with LoRA adapter
