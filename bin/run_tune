@@ -11,7 +11,7 @@ echo "Run ID: $run_id"
 echo "Results will be saved to: $result_dir"
 mkdir -p "$result_dir"
 
-RESULTS_DIR="$result_dir" ./.venv_lora/bin/python ./exp_tune/_python/fine_tuning.py "$@"
+RESULTS_DIR="$result_dir" torchrun --nproc_per_node=2 ./exp_tune/_python/fine_tuning.py "$@"
 
 # run experiment
 #- modify this command to run your experiment, and make sure to save the results to the $result_dir
